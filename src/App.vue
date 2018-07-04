@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <NavBar src="hit" />
-    <Hero headline="I like Components" details="This is interesting" cta="Contact Us" /> 
+    <Hero headline="Hi, From Props" details="This is interesting" cta="Contact Us" /> 
     <MainTent></MainTent> 
   </div>
 </template>

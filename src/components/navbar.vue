@@ -6,7 +6,7 @@
   <li><a href="#">HOME</a></li>
   <li><a href="#">ABOUT</a></li>  
   <li><a href="#">CONTACT</a></li>  
-  <li><a href="#">FAQ</a></li>  
+  <li><a href="#">FAQS</a></li>  
 </ul>
   <span class="toggle">☰</span>
   </label>
