@@ -3,7 +3,8 @@
     <Header />
     <NavBar src="hit" />
     <Hero headline="Hi, From Props" details="This is interesting" cta="Contact Us" /> 
-    <MainTent></MainTent> 
+    <MainTent></MainTent>
+    <lazyImage src="http://via.placeholder.com/350x150" className="mega-image" alt="lazyload"></lazyImage> 
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/header";
 import NavBar from "./components/navbar";
 import Hero from "./components/hero";
 import MainTent from "./components/main-content";
+import lazyImage from "./components/lazy-images";
 
 export default {
   name: "App",
@@ -19,6 +21,7 @@ export default {
     Header,
     NavBar,
     Hero,
+    lazyImage,
     MainTent
   }
 };

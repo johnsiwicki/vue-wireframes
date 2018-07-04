@@ -1,5 +1,5 @@
 <template>
-   <nav>
+<nav>
   <input type="checkbox" id="checkbox1" />
   <label for="checkbox1">
 <ul class="menu first">
@@ -14,13 +14,11 @@
 </template>
 
 <script>
-  module.exports = {
-    data: function() {
-      return {
-       
-      }
-    }
+module.exports = {
+  data: function() {
+    return {};
   }
+};
 </script>
 
 <style scoped>
@@ -28,7 +26,7 @@ nav {
   margin: 50px auto;
   max-width: 100%;
   width: 100%;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Droid Sans", sans-serif;
 }
 
 #checkbox1,
@@ -55,7 +53,7 @@ nav {
   align-self: center;
   font-size: 14px;
   padding: 16px 20px;
-  transition: background .2s linear;
+  transition: background 0.2s linear;
 }
 
 @media screen and (max-width: 600px) {
@@ -77,7 +75,7 @@ nav {
     font-size: 18px;
     color: #595959;
     background: #dbdbdb;
-    transition: all .1s linear;
+    transition: all 0.1s linear;
   }
   .toggle:hover {
     background: #cecece;
@@ -85,17 +83,17 @@ nav {
   #checkbox1:checked + label .first li {
     opacity: 1;
     visibility: visible;
-    transition: all .7s linear;
+    transition: all 0.7s linear;
   }
   #checkbox2:checked + label .second li {
     opacity: 1;
     visibility: visible;
-    transition: all .7s linear;
+    transition: all 0.7s linear;
   }
   #checkbox3:checked + label .third li {
     opacity: 1;
     visibility: visible;
-    transition: all .7s linear;
+    transition: all 0.7s linear;
   }
   #checkbox1:checked + label .first {
     height: 200px;
@@ -112,7 +110,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 0px;
-    transition: height .3s linear;
+    transition: height 0.3s linear;
   }
   .menu li {
     display: flex;
@@ -167,6 +165,6 @@ nav {
 }
 
 body {
-  background: #FFF;
+  background: #fff;
 }
 </style>
