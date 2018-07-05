@@ -5,7 +5,12 @@
 
 <script>
   module.exports = {
-    props: ["src", "alt", "className", "finalImage"],
+    props: ["src", "alt", "className"],
+    watch: { 
+      	src: function(newVal, oldVal) { // watch it
+          console.log('Prop changed: ', newVal, ' | was: ', oldVal)
+        }
+      },
     data: function() {
       return {
       };
