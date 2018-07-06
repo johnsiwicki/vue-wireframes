@@ -1,6 +1,6 @@
 <template>
 	<div id="logo">
-		<img src="http://via.placeholder.com/350x150">
+		<img src="https://imgplaceholder.com/350x125/ff7f7f/333333/fa-image">
 	</div>
 </template>
 

@@ -8,6 +8,11 @@
   <div class="content">
 
   <h2>This explains the video</h2>
+
+     <p>Cupcake cotton candy gingerbread pie lollipop. Tootsie roll sugar plum tootsie roll jelly beans jelly chocolate bar.</p>
+     <p>Tiramisu cupcake tiramisu cookie candy canes dragée apple pie. Tiramisu cupcake tiramisu cookie candy canes dragée apple pie.</p>
+
+      <button>Let's Do It</button>
   </div>
 </div>
  
@@ -32,7 +37,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "video content";
-  background:#cacaca;
+  background:#3C444C;
   margin: 30px 0; 
 }
 
@@ -42,6 +47,8 @@
 
 .content {
   grid-area: content;
+  color:white;
+  padding: 0 15px;
 }
 
 

@@ -4,10 +4,11 @@
     <NavBar src="hit" />
     <Hero headline="Hi, From Props" details="This is interesting" cta="Contact Us" /> 
     <MainTent></MainTent>
-     <lazyImage src="http://via.placeholder.com/450x150" className="mega-image" alt="lazyload">
+     <lazyImage src="https://imgplaceholder.com/425x250/ff7f7f/333333/fa-image" className="mega-image" alt="lazyload">
     </lazyImage> 
     	<s-video controls="controls" width="100%" poster="https://source.unsplash.com/user/erondu/200x200" src="http://techslides.com/demos/sample-videos/small.mp4">
       </s-video>
+      <Footer></Footer>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Hero from "./components/hero";
 import MainTent from "./components/main-content";
 import lazyImage from "./components/lazy-images";
 import sVideo from "./components/s-video";
+import Footer from "./components/footer";
 
 export default {
   name: "App",
@@ -27,6 +29,7 @@ export default {
     Hero,
     lazyImage,
     sVideo,
+    Footer,
     MainTent
   }
 };
@@ -37,8 +40,8 @@ export default {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  max-width:1180px;
+  margin:0 auto;
 }
 </style>

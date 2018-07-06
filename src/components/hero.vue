@@ -23,7 +23,9 @@ module.exports = {
   align-items: center;
   min-height: 300px;
   padding: 10px;
-  background: gray;
+  background-image: url(https://source.unsplash.com/random/1440x800);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .heroPromptLabel {
