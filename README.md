@@ -1,4 +1,8 @@
-# Vue UI Kit 
+# Vue UI Wireframe Kit 
+
+
+A  Vue UI library for web site interfaces for quickly boilerplating new ideas. 
+
 
 ## Components 
 - Header
@@ -7,6 +11,7 @@
 - Content Block 
 - Image
 - Video
+- Footer
 
 ## Todo 
 - Card 

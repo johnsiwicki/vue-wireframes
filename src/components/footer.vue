@@ -1,5 +1,8 @@
 <template>
  <footer class="social-footer">
+ <div class="social-footer-left">
+     <p>Copyright © S. All rights reserved.</p>
+  </div>
   <div class="social-footer-left">
     <a href="#"><img class="logo" src="https://placehold.it/150x30"></a>
   </div>
